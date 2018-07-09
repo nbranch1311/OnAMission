@@ -1,3 +1,7 @@
+// This was my first Facebook interview for front-end engineering. 
+// Always get through the 2nd interview and flop and fish on the last one. :(
+// From what I have been told this is a pretty solid observable solution.
+
 class Observable {
   constructor(subscribe) {
     this._subscribe = subscribe;
