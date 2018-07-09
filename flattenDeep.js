@@ -1,3 +1,6 @@
+// This is my solution to flattening array of any dimension. It also handles objects that are deeply nested. 
+// It is capable of taking an unlimited amount of arguments and will always default to returning a new array.
+
 function flatten(oldArr = []) {
 	if(arguments.length > 1){
   	const args = [].slice.call(arguments);
