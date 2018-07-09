@@ -1,3 +1,8 @@
+// Emitter
+
+// I recently did a Facebook interview and was asked to create my own simple Emitter. 
+// If you need to know what an emitter does I suggest looking on medium.com they have an excellent example and definition
+
 class Emitter {
 	constructor() {
   	this.eventMap = {};
